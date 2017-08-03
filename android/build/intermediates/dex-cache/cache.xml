@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_1ebd9aeff57a8cbb73b8048d845f80a0c32fddc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.0.1_ed262388f1db4e5d9374f5de2c6621ad902da988.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_b4e2a17cd7e044d6f05922effc1f41dc18b2b709.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_75595c306d03a6d4f5c614280944301d61e3c77e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_a886023e312595009a8ce3ffffea307c005716f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.0.1_95e4ff267448b1dceaf09ec5d7aa6808291dbc35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_b41859dc12d295122b252763843703f10367e7f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_c910f98cebc6e06a9d49da8cffa1637361209dc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_6caa1fe4da30cf2cc1676a54cb9890359b7ae5e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.0.1_d07eccbde18718a34f8846b4bdd553f50428c22f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.0.1_f89fc06ae3905c9770e95f41c153a0a5f48bd524.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_d7793c3350ac397e9590d1f9a288051ed990214e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_53f086dafc8d09e37e97124068bb3a222cf3e963.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_69be50c1b69c6955b20119163a36b0f1fbdfb946.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.0.1_09911d1c2854fdf5dd9c515080694370639bf67e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.0.1_4ccd285d23188134300037d9b59a456459dd90e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.46.4\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_aaf23f1d0433c502dd75c878f65b2307bce948f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\onda\react-native-background-timer\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="674be24595058b623fb3338615ce68e92d6b5eeb">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\onda-react-native-background-timer-unspecified_19b50c654e86bf9a4be26b7d48a97402310f94b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_80f5e24048d0c8d4b9fd2bad470408ca76a66325.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\onda\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\onda-react-native-vector-icons-unspecified_cb96c9e3773cb1c738809437eb58250b6ed74149.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.46.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c5526d30278eb171f4a1325bd6b927c9057c91f4">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.46.4_aaba64fd94b982f23647003853ab0a19abb29e84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_12b5629c4636e5e5f24736bbe3e43bfd869f8f12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\exploded-aar\onda\react-native-linear-gradient\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b1de8f75805268154da5e88bb6195760b9d8966f">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\onda-react-native-linear-gradient-unspecified_d8947f075002efd4808f8feb4cddbc94606f6fc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jung Woo Moon\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\Jung Woo Moon\coding\mobile\onda\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_29a59de8d3b716566a99ebc5033192239ae899e0.jar" />
+    </item>
+
+</items>
