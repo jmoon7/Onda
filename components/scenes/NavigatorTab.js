@@ -54,14 +54,9 @@ export default class Navigator extends Component {
 	render() {
 		return (
 			<View style={styles.container}>
-				<StatusBar
-					translucent={true}
-		    	backgroundColor='black'
-		    	barStyle='light-content'
-				/>
 				<View style={{backgroundColor: 'white', paddingTop: 15}}> 
 					<LightText style={{textAlign: 'center', fontSize: 20, margin: 0}}> 
-						onda 
+						onda
 					</LightText>
 				</View>
 				<TabNavigation/>
@@ -75,7 +70,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingTop: StatusBar.currentHeight,
+    // paddingTop: StatusBar.currentHeight,
     backgroundColor: 'white'
   }
 });

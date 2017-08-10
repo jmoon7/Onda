@@ -17,7 +17,7 @@ export default class FinishedAnimation extends Component {
   }
   
   render() {
-    let scaleStyle = (this.state.load) ? { scale: 1 } : { scale : 5 };
+    let scaleStyle = (this.state.load) ? { transform: [{ scale: 1 }] } : { transform: [{ scale : 5 }] };
     return (
       <Text style={scaleStyle}> Finished! </Text>
     );

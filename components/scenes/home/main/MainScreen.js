@@ -6,23 +6,13 @@ import LightText from '../../../text/LightText';
 import { primaryColor } from '../../../Color';
 import ActivitiesList from './ActivitiesList';
 import NewFloatingActionButton from './NewFloatingActionButton';
-
-const exampleData = [
-  {key: 1, title: 'Continue reading East of Eden', icon: 'book', color: 'deepskyblue'},
-  {key: 2, title: 'Go Cycling', icon: 'bicycle', color: 'darksalmon'},
-  {key: 3, title: 'Hang out with friends', icon: 'group', color: 'mediumturquoise'},
-  {key: 4, title: 'Hang out with friends', icon: 'group', color: 'mediumturquoise'},
-  {key: 5, title: 'Hang out with friends', icon: 'group', color: 'mediumturquoise'},
-  {key: 6, title: 'Hang out with friends', icon: 'group', color: 'mediumturquoise'},
-  {key: 7, title: 'Hang out with friends', icon: 'group', color: 'mediumturquoise'},
-  {key: 8, title: 'Hang out with friends', icon: 'group', color: 'mediumturquoise'},
-];
+import { initialData } from '../../../Util';
 
 export default class MainScreen extends Component {
   constructor() {
     super();
     UIManager.setLayoutAnimationEnabledExperimental(true);
-    this.state = { load: false, data: [] };
+    this.state = { load: false, data: initialData };
     this.handleSave = this.handleSave.bind(this);
     this.handleDelete = this.handleDelete.bind(this);
     this.handleFabOpen = this.handleFabOpen.bind(this);
@@ -30,6 +20,8 @@ export default class MainScreen extends Component {
   }
 
   componentDidMount() {
+    // this.debug_addActivity();
+    // this.debug_clearActivites();
     this.fetchActivitiesFromStorage();
     setTimeout(() => {
       LayoutAnimation.configureNext(LayoutAnimation.Presets.spring);
@@ -37,13 +29,31 @@ export default class MainScreen extends Component {
     });
   }
 
+  async debug_addActivity() {
+    const data = {
+      key: Date.now(), 
+      title: 'debug',
+      category: 'Cooking',
+      duration: 0.1,
+      alarm: false,
+      airplaneMode: false,
+      timeSpent: 0
+    }
+    this.handleSave(data);
+  }
+
+  async debug_clearActivites() {
+    await AsyncStorage.removeItem('@OndaStore:activities');
+  }
+
   async fetchActivitiesFromStorage() {
     try {
-      // await AsyncStorage.removeItem('@OndaStore:activities');
-      const data = await AsyncStorage.getItem('@OndaStore:activities');
-      if (data !== null) this.setState({ data: JSON.parse(data) });
+      let data = await AsyncStorage.getItem('@OndaStore:activities');
+      data = JSON.parse(data);
+      if (data !== null) this.setState({ data });
     } catch (error) {
       // Error retrieving data
+      console.log(error);
     }
   }
 
@@ -52,13 +62,13 @@ export default class MainScreen extends Component {
       await AsyncStorage.setItem('@OndaStore:activities', JSON.stringify(data));
     } catch (error) {
       // Error saving data
+      console.log(error);
     }
   }
 
   handleSave(entry) {
     let data = this.state.data;
     data.unshift(entry);
-    console.log(data);
     this.updateStorage(data);
     this.fetchActivitiesFromStorage();
   }
@@ -85,7 +95,7 @@ export default class MainScreen extends Component {
       <View style={styles.container}>
         <View style={animateIntro}>
           <View style={styles.intro}>
-            <BoldText style={{fontSize: 30}}> Hey <Text style={{color:primaryColor}}>Jung Woo</Text>, </BoldText>
+            <BoldText style={{fontSize: 30}}> Hey <Text style={{color:primaryColor}}>there</Text>, </BoldText>
             <LightText style={{fontSize: 20}}> What would you like to do today? </LightText>
           </View>
         </View>

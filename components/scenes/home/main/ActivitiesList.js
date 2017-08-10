@@ -4,31 +4,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import IconM from 'react-native-vector-icons/MaterialIcons';
 import LightText from '../../../text/LightText';
 import { primaryColor } from '../../../Color';
-
-const categoryColors = { 
-  social: 'crimson', 
-  physical: 'lightgreen', 
-  literature: 'deepskyblue', 
-  arts: 'lightpink', 
-  cooking: 'orange'
-};
-
-const categoryIcons = { 
-  social: 'users', 
-  physical: 'heartbeat', 
-  literature: 'book', 
-  arts: 'paint-brush', 
-  cooking: 'cutlery'
-};
-
-const durationParse = (minutes) => {
-  const hours = Math.floor(minutes / 60);
-  const min = minutes % 60;
-  let time = '';
-  if (hours !== 0) time += hours + 'h ';
-  if (min !== 0) time += min + 'm';
-  return time;
-}
+import { durationParse, categoryColors, categoryIcons } from '../../../Util';
 
 export default class ActivitiesList extends Component {
   constructor() {
@@ -64,18 +40,16 @@ export default class ActivitiesList extends Component {
           if (this.state.index === index) {
             animateActivity = { margin: 20 };
             body = (
-              <View style={styles.body}>
-                <View style={styles.info}>
-                  <TouchableOpacity onPress={() => this.handleDelete(index)}>
-                    <Icon name='times' size={20} color={primaryColor}/>
-                  </TouchableOpacity>
-                  <Text> Category: {item.category} </Text>
-                  <IconM name={(item.alarm) ? 'notifications' : 'notifications-off' } size={20}/>
-                  <IconM name={(item.airplaneMode) ? 'airplanemode-active' : 'airplanemode-inactive'} size={20}/>
-                  <TouchableOpacity style={styles.start} onPress={() => this.props.handleNewActivity(item)}>
-                    <Text style={styles.startText}> start </Text>
-                  </TouchableOpacity>
-                </View>
+              <View style={styles.info}>
+                <TouchableOpacity onPress={() => this.handleDelete(index)}>
+                  <Icon name='times' size={20} color={primaryColor}/>
+                </TouchableOpacity>
+                <Text> Category: {item.category} </Text>
+                <IconM name={(item.alarm) ? 'notifications' : 'notifications-off' } size={20}/>
+                <IconM name={(item.airplaneMode) ? 'airplanemode-active' : 'airplanemode-inactive'} size={20}/>
+                <TouchableOpacity style={styles.start} onPress={() => this.props.handleNewActivity(item)}>
+                  <Text style={styles.startText}> start </Text>
+                </TouchableOpacity>
               </View>
             );
           } else {
@@ -93,7 +67,7 @@ export default class ActivitiesList extends Component {
                     </View>
                     <View style={styles.row}>
                       <IconM name='timer' size={20}/>
-                      <Text> {durationParse(item.duration)} </Text>
+                      <Text> {durationParse(item.duration * 60)} </Text>
                     </View>
                   </View>
                   { body }
@@ -118,10 +92,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center'
   },
-  body: {
-    flex: 1,
-    alignItems: 'flex-start'
-  },
   start: {
     backgroundColor: primaryColor,
     borderRadius: 5,
@@ -134,6 +104,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row'
   },
   info: {
+    flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center'
