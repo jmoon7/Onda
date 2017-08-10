@@ -1,5 +1,5 @@
 node_modules
-_tests_
+__tests__
 android
 assets
 graphics
@@ -8,4 +8,4 @@ ios
 .buckconfig
 .flowconfig
 .watchmanconfig
-index.ios
+index.ios.js
