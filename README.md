@@ -1,4 +1,4 @@
-# onda
+# Onda
 
 Mobile app for tracking hobbies/activities built with React Native
 
