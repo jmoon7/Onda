@@ -1,12 +1,22 @@
 node_modules
+
 _tests_
+
 android
+
 assets
+
 graphics
+
 ios
+
 .babelrc.babelrc
+
 .buckconfig.buckconfig
+
 .flowconfig.flowconfig
+
 .watchmanconfig.watchmanconfig
+
 index.ios
 
